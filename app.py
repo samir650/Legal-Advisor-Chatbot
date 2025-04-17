@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 import re
+import os
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
@@ -8,7 +9,7 @@ import numpy as np
 
 # Configure OpenRouter API
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 MODEL_NAME = "deepseek/deepseek-r1:free"
 
 uploaded_file = "القانون الكويتي.txt"
