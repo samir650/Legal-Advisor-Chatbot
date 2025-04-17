@@ -3,4 +3,3 @@ requests
 scikit-learn
 sentence-transformers
 numpy
-re
