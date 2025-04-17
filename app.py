@@ -11,7 +11,7 @@ OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 OPENROUTER_API_KEY = "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"
 MODEL_NAME = "deepseek/deepseek-r1:free"
 
-uploaded_file = "D:\Legal Advisor\القانون الكويتي.txt"
+uploaded_file = "القانون الكويتي.txt"
 
 # Enhanced text extraction with legal structure awareness
 def extract_text_from_txt(file):
