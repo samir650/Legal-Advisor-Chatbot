@@ -8,7 +8,7 @@ import numpy as np
 
 # Configure OpenRouter API
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-OPENROUTER_API_KEY = "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"
+OPENROUTER_API_KEY = "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"
 MODEL_NAME = "deepseek/deepseek-r1:free"
 
 uploaded_file = "القانون الكويتي.txt"
